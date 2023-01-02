@@ -1,15 +1,22 @@
 import Head from "next/head";
-import { Inter } from "@next/font/google";
 import { Player } from "@asius/player";
 import { props } from "../props";
 import { useState } from "react";
+import { useRender } from "@asius/sdk";
 
-const inter = Inter({ subsets: ["latin"] });
 
+const template = {
+  height: 1080,
+  width: 1080,
+  fps: 30,
+  duration: 40,
+  comps: props,
+};
 export default function Home() {
   const [text, setText] = useState("Your text");
   const [seed, setSeed] = useState("sdf");
   const [color, setColor] = useState("#FFFFFF");
+
   const modifications = [
     {
       id: "q4amc47",
@@ -17,24 +24,20 @@ export default function Home() {
     },
     {
       id: "ekmz32",
-      src: `https://picsum.photos/seed/${seed}/500/500`,
+      src: `https://picsum.photos/seed/${seed}/1080/1080`,
     },
     {
-      id: "1obb3k",
-      textStyle: {
-        fontSize: 200,
-        fontFamily: "Arial",
-        color: color,
-        outline: {
-          color: "#ff0000",
-          width: 14,
-        },
-        fontWeight: 800,
-        lineHeight: 1.2,
-        textAlign: "center",
-      },
+      id: "5g72xkp",
+      color,
     },
   ];
+
+  const { media, status, progress, fileUrl } = useRender({
+    ...template,
+    frame: 0,
+    modifications,
+  });
+
   return (
     <>
       <Head>
@@ -73,6 +76,16 @@ export default function Home() {
             controls
             modifications={modifications}
           />
+          {status ? (
+            <div>
+              <p>Rendering...</p>
+              <p>{status}</p>
+              <p>{progress}%</p>
+              <p>{fileUrl}</p>
+            </div>
+          ) : (
+            <button onClick={media}>Render</button>
+          )}
         </div>
       </main>
     </>

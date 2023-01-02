@@ -19,9 +19,9 @@
     react-simple-maps "^3.0.0"
 
 "@asius/player@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@asius/player/-/player-1.0.1.tgz#830ba86fba7911bf9460ccafc4aec35af8b8c105"
-  integrity sha512-RXvYUmE0bz7PHiKBweWG13NUmozVTcMTt4z3G/dchj/90FvuCK+RMaUPjipo0ZmDW8sENCalKdwIrM8aUjndTA==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@asius/player/-/player-1.0.2.tgz#28247d614e6c1363a697c9dd6b6e7d88f6d8ba88"
+  integrity sha512-i4TxqndIkLGnub8RIQj62IpfmwImFJOTofc64x9WcTEr1WHwQtEW1gV6LJ4vbp3eYN5Ic4DCBhfgD3K7xbHuAQ==
   dependencies:
     "@asius/components" "*"
     "@asius/types" "*"
