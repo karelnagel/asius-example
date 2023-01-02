@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@asius/components": "^1.0.3",
+    "@asius/player": "^1.0.1",
+    "@asius/sdk": "^1.0.1",
+    "@asius/types": "^2.0.0",
     "@next/font": "13.1.1",
     "@types/node": "18.11.18",
     "@types/react": "18.0.26",
