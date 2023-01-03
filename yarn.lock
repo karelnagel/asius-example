@@ -3,11 +3,10 @@
 
 
 "@asius/components@*", "@asius/components@^1.0.3":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@asius/components/-/components-1.0.7.tgz#f0ea814e9514433a7ed5c2e3bcf47a4c9f5b16be"
-  integrity sha512-+AErTRIDss/AgG6LY21+gD3NwqlXW4AQ3tgJHHGFmRmbEG8Uf5HtQpqYOb3c8BtB84ZXDrQIjjZQK+oLc6Jl5g==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@asius/components/-/components-1.1.0.tgz#f217900d7bb78052a89a9c982ad9fcebb588c976"
+  integrity sha512-aAuMk+4NCMgX8zaZh18XFHF1iLNuo0m3+BJGr/rc4JiQ9fGGh9Jia6aSr6B3+haQNtgslkvl7PyxnFz5OKacSA==
   dependencies:
-    "@asius/types" "*"
     "@remotion/cli" "3.3.19"
     "@remotion/gif" "3.3.19"
     "@remotion/lottie" "3.3.19"
@@ -17,32 +16,25 @@
     lottie-web "^5.10.0"
     react-qr-code "^2.0.10"
     react-simple-maps "^3.0.0"
+    typescript "^4.9.4"
 
 "@asius/player@^1.0.1":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@asius/player/-/player-1.0.3.tgz#9a921ebb4b4ee68c8584793091c3711a15135467"
-  integrity sha512-Q4hMdBFZbQQkKtP7YDIgZSM0IRnI4xCS5zn3tO5r3pF+GQRzLorvLtEU8UahppB8mvSnBzcitlh65o9jQrfMsA==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@asius/player/-/player-1.1.0.tgz#103a594bbf7d8d51e42f1a7fe0214b764e28818b"
+  integrity sha512-0LCngonFVvwQSWQE75YT9dSwnlsa45u0ziYR9gns+g2xN0w1fbqH4dzQtudLvWssciNe8/+urJLE0SCX/VZV1A==
   dependencies:
     "@asius/components" "*"
-    "@asius/types" "*"
     "@remotion/cli" "3.3.19"
     "@remotion/player" "3.3.19"
     remotion "3.3.19"
 
 "@asius/sdk@^1.0.1":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@asius/sdk/-/sdk-1.0.2.tgz#8dbfdc8b0bbeeeec69a8960598c41924ff0d35c9"
-  integrity sha512-Y+YL6VqYT3ouL+0kESO3leOVl6+ElLRknlBMF8nxiLKn4v4TZk1/sXq76n7HDBarLgtgHxX2WzNgYhUu7UWgxw==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@asius/sdk/-/sdk-1.1.0.tgz#fb01f2e6a93ab088de4a184b625b6ac9bcd1cd10"
+  integrity sha512-y4DPzrP6568pKemNf+IJ0raA52JC0Acy833X0vu23/qPC/iKs0lI2ney3fCJMXFbJeHmBzylcBb7HsF63wZ5tg==
   dependencies:
-    "@asius/types" "*"
+    "@asius/components" "*"
     axios "^1.2.1"
-    typescript "^4.9.4"
-
-"@asius/types@*", "@asius/types@^2.0.0":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@asius/types/-/types-2.0.1.tgz#b8ccdd56297426cb2a952459539e83d3d4bacdb9"
-  integrity sha512-tc/kIce89YQp4Dq+P7teu3Aj7M2JoYM4EUyDmo3ebd53L9OYqjfPrSMFqfK/a5XaVx6/ZEf48XwOy6Yy+183Rw==
-  dependencies:
     typescript "^4.9.4"
 
 "@babel/runtime-corejs3@^7.10.2":

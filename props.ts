@@ -1,6 +1,6 @@
-import { CompProps } from "@asius/types";
+import { ComponentProps } from "@asius/components";
 
-export const props: CompProps[] = [
+export const props: ComponentProps[] = [
   {
     "id": "ekmz32",
     "type": "image",
