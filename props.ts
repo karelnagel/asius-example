@@ -2,7 +2,7 @@ import { ComponentProps } from "@asius/components";
 
 export const props: ComponentProps[] = [
   {
-    "id": "ekmz32",
+    "id": "r81ebs",
     "type": "image",
     "height": 1080,
     "width": 1080,
@@ -10,64 +10,32 @@ export const props: ComponentProps[] = [
     "y": 0,
     "objectFit": "cover",
     "borderRadius": 10,
-    "src": "https://picsum.photos/seed/ddfsssddfsdff/500/500",
+    "src": "https://picsum.photos/seed/dsdfddf/1080/1080",
     "from": 0,
     "duration": 0,
     "rotation": 0
   },
   {
-    "id": "ia89yr5",
     "type": "video",
-    "height": 500,
-    "width": 540,
-    "x": 270,
-    "y": 285,
     "objectFit": "cover",
-    "borderRadius": 10,
-    "rotation": 0,
     "startFrom": 0,
     "src": "https://remotionlambda-24lixyhuqn.s3.us-east-1.amazonaws.com/video.mp4",
     "muted": false,
     "volume": 100,
-    "from": 0,
-    "duration": 0
-  },
-  {
-    "id": "q4amc47",
-    "type": "text",
-    "height": 270,
-    "width": 1080,
-    "x": 5,
-    "y": 25,
-    "textStyle": {
-      "backgroundColor": "#00000000",
-      "color": "#ff0000FF",
-      "fontSize": 180,
-      "fontFamily": "Inter",
-      "fontWeight": 700,
-      "textAlign": "center",
-      "outline": {
-        "color": "#ffffffFF",
-        "width": 20
-      }
-    },
-    "borderRadius": 0,
-    "text": "Hello World",
-    "rotation": 0,
-    "duration": 8.730025231286795,
-    "from": 0
-  },
-  {
-    "id": "1obb3k",
-    "type": "transcription",
-    "height": 270,
-    "width": 1080,
+    "id": "dgrplp4",
     "x": 0,
-    "y": 810,
-    "borderRadius": 10,
-    "rotation": 0,
-    "from": 0,
+    "y": 300,
+    "width": 1080,
+    "height": 500,
+    "borderRadius": 0,
     "duration": 0,
+    "from": 0,
+    "rotation": 0,
+    "componentAnimations": []
+  },
+  {
+    "type": "transcription",
+    "height": 275,
     "words": [
       {
         "text": "If",
@@ -1299,8 +1267,8 @@ export const props: ComponentProps[] = [
       "type": "current-word",
       "textStyle": {
         "outline": {
-          "color": "#0818fd",
-          "width": 14
+          "color": "#ffa3a3",
+          "width": 20
         }
       }
     },
@@ -1308,49 +1276,67 @@ export const props: ComponentProps[] = [
     "textStyle": {
       "fontSize": 200,
       "fontFamily": "Arial",
-      "color": "#ffffff",
+      "color": "#1a77db",
       "outline": {
-        "color": "#ff0000",
-        "width": 14
+        "color": "#ffffff",
+        "width": 20
       },
       "fontWeight": 800,
       "lineHeight": 1.2,
       "textAlign": "center"
-    }
+    },
+    "id": "mxgsi9",
+    "x": 0,
+    "y": 800,
+    "width": 1080,
+    "borderRadius": 0,
+    "duration": 0,
+    "from": 0,
+    "rotation": 0,
+    "componentAnimations": []
   },
   {
-    "id": "5g72xkp",
     "type": "audiogram",
     "height": 500,
     "width": 1080,
-    "x": 0,
-    "y": 270,
-    "borderRadius": 10,
-    "rotation": 0,
     "startFrom": 0,
     "src": "https://remotionlambda-24lixyhuqn.s3.us-east-1.amazonaws.com/video.mp4",
-    "from": 0,
-    "duration": 0,
-    "barWidth": 40,
+    "barWidth": 30,
     "gap": 1,
-    "position": "center",
-    "roundness": 10,
-    "color": "#007bff",
+    "position": "end",
+    "roundness": 5,
+    "color": "#000FF0",
     "mirror": true,
-    "smoothing": true
+    "smoothing": true,
+    "id": "skz7v8m",
+    "x": 0,
+    "y": 295,
+    "borderRadius": 0,
+    "duration": 0,
+    "from": 0,
+    "rotation": 0,
+    "componentAnimations": []
   },
   {
-    "id": "kn0guc7",
-    "type": "lottie",
-    "height": 300,
-    "width": 615,
-    "x": 235,
-    "y": 5,
-    "borderRadius": 10,
-    "rotation": 0,
-    "src": "https://assets10.lottiefiles.com/packages/lf20_zk4EpiO6Hv.json",
-    "from": 8.730025231286795,
+    "type": "text",
+    "textStyle": {
+      "backgroundColor": "#00000000",
+      "color": "#eb0000FF",
+      "fontSize": 200,
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "textAlign": "left"
+    },
+    "text": "Hello World",
+    "id": "m5sk14y",
+    "x": 0,
+    "y": 0,
+    "width": 1075,
+    "height": 295,
+    "borderRadius": 0,
     "duration": 0,
-    "loop": true
+    "from": 0,
+    "rotation": 0,
+    "componentAnimations": []
   }
 ]

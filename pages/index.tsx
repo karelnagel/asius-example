@@ -12,6 +12,7 @@ const template = {
   duration: 40,
   comps: props,
 };
+
 export default function Home() {
   const [text, setText] = useState("Your text");
   const [seed, setSeed] = useState("sdf");
@@ -19,15 +20,15 @@ export default function Home() {
 
   const modifications = [
     {
-      id: "q4amc47",
+      id: "m5sk14y",
       text,
     },
     {
-      id: "ekmz32",
+      id: "r81ebs",
       src: `https://picsum.photos/seed/${seed}/1080/1080`,
     },
     {
-      id: "5g72xkp",
+      id: "skz7v8m",
       color,
     },
   ];
