@@ -1,5 +1,5 @@
 {
-  "name": "asius-example",
+  "name": "motionly-example",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@asius/components": "^1.0.3",
-    "@asius/player": "^1.0.1",
-    "@asius/sdk": "^1.0.1",
+    "@motionly/components": "^1.0.3",
+    "@motionly/player": "^1.0.1",
+    "@motionly/renderer": "^1.0.1",
+    "@motionly/base": "^1.0.1",
     "@next/font": "13.1.1",
     "@types/node": "18.11.18",
     "@types/react": "18.0.26",

@@ -1,3 +1,3 @@
-# Asius Player example 
+# Motionly Player example 
 
-More info [here](https://asius.dev)
+More info [here](https://motionly.dev)
