@@ -1,21 +1,8 @@
 import Head from "next/head";
 import { Player } from "@motionly/player";
-import { props } from "../props";
 import { useEffect, useState } from "react";
 import { useRender } from "@motionly/renderer/dist/sdk";
-import { TemplateType } from "@motionly/base";
-
-const baseTemplate: TemplateType = {
-  height: 1080,
-  width: 1080,
-  fps: 30,
-  duration: 40,
-  background: {
-    type: "basic",
-    color: "#FFFFFF",
-  },
-  comps: props,
-};
+import { baseTemplate } from "../props";
 
 export default function Home() {
   const [template, setTemplate] = useState(baseTemplate);
@@ -50,12 +37,12 @@ export default function Home() {
       <main>
         <div style={{ maxWidth: "600px", margin: "auto" }}>
           <Player
-            comps={props}
-            duration={40}
-            fps={30}
-            height={1080}
-            width={1080}
-            style={{ width: `100%` }}
+            comps={template.comps || []}
+            duration={template.duration || 1}
+            fps={template.fps || 30}
+            height={template.height || 1080}
+            width={template.width || 1080}
+            style={{ width: `100%`,maxHeight:"100vh" }}
             controls
           />
           <div
